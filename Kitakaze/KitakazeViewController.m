@@ -7,6 +7,8 @@
 //
 
 #import "KitakazeViewController.h"
+#import "PlayViewController.h"
+#import "OptionViewController.h"
 
 @implementation KitakazeViewController
 
@@ -38,7 +40,26 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    //return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+}
+
+- (IBAction)showPlayView
+{
+    PlayViewController* controller = [[PlayViewController alloc] initWithNibName:@"PlayViewController" bundle:nil];
+    controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:controller animated:YES];
+    
+    [controller release];
+}
+
+- (IBAction)showOptionView
+{
+    OptionViewController* controller = [[OptionViewController alloc] initWithNibName:@"OptionViewController" bundle:nil];
+    controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:controller animated:YES];
+    
+    [controller release];
 }
 
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D095CF2146BF65D009B7213 /* teemo01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D095CF1146BF65D009B7213 /* teemo01.png */; };
+		3D095CF4146BF663009B7213 /* teemo02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D095CF3146BF663009B7213 /* teemo02.png */; };
+		3D095CFA146C00DE009B7213 /* CALayer+animationCALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D095CF9146C00DE009B7213 /* CALayer+animationCALayer.m */; };
 		3D8996C8144578C600524885 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8996C7144578C600524885 /* UIKit.framework */; };
 		3D8996CA144578C600524885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8996C9144578C600524885 /* Foundation.framework */; };
 		3D8996CC144578C600524885 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8996CB144578C600524885 /* CoreGraphics.framework */; };
@@ -23,6 +26,28 @@
 		3D8996F4144578C600524885 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D8996F2144578C600524885 /* InfoPlist.strings */; };
 		3D8996F6144578C600524885 /* KitakazeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D8996F5144578C600524885 /* KitakazeTests.h */; };
 		3D8996F8144578C600524885 /* KitakazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8996F7144578C600524885 /* KitakazeTests.m */; };
+		3D89970814457C3200524885 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D89970614457C3200524885 /* PlayViewController.m */; };
+		3D89970914457C3200524885 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D89970714457C3200524885 /* PlayViewController.xib */; };
+		3D89970D144584F700524885 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D89970B144584F700524885 /* OptionViewController.m */; };
+		3D89970E144584F700524885 /* OptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D89970C144584F700524885 /* OptionViewController.xib */; };
+		3D8997191446733300524885 /* clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8997121446733300524885 /* clouds.png */; };
+		3D89971B1446733300524885 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8997141446733300524885 /* title.png */; };
+		3D89971C1446733300524885 /* title_and_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8997151446733300524885 /* title_and_button.png */; };
+		3D89971E144675A300524885 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D89971D144675A300524885 /* AVFoundation.framework */; };
+		3D899721144675B300524885 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D89971F144675B300524885 /* OpenGLES.framework */; };
+		3D899722144675B300524885 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D899720144675B300524885 /* QuartzCore.framework */; };
+		3D89972414467CA700524885 /* playview.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D89972314467CA700524885 /* playview.png */; };
+		3D89972614467FB400524885 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D89972514467FB400524885 /* Default.png */; };
+		3DE84B0114469D3C0001731A /* cloud_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE84AFA14469D3C0001731A /* cloud_1.png */; };
+		3DE84B0214469D3C0001731A /* cloud_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE84AFB14469D3C0001731A /* cloud_2.png */; };
+		3DE84B0314469D3C0001731A /* cloud_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE84AFC14469D3C0001731A /* cloud_3.png */; };
+		3DE84B0614469D3C0001731A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE84AFF14469D3C0001731A /* play.png */; };
+		3DE84B0714469D3C0001731A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE84B0014469D3C0001731A /* pause.png */; };
+		3DE84B0B1446A3E80001731A /* statusbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE84B0A1446A3E80001731A /* statusbar.png */; };
+		3DE84B151446BDBD0001731A /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE84B141446BDBD0001731A /* Cloud.m */; };
+		3DE84B1C1446C0530001731A /* WindyCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE84B1B1446C0530001731A /* WindyCloud.m */; };
+		3DE84B201446C0750001731A /* RainyCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE84B1F1446C0750001731A /* RainyCloud.m */; };
+		3DE84B231446C0920001731A /* ThunderCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE84B221446C0910001731A /* ThunderCloud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,26 +61,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D095CF1146BF65D009B7213 /* teemo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teemo01.png; sourceTree = "<group>"; };
+		3D095CF3146BF663009B7213 /* teemo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teemo02.png; sourceTree = "<group>"; };
+		3D095CF8146C00DE009B7213 /* CALayer+animationCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+animationCALayer.h"; sourceTree = "<group>"; };
+		3D095CF9146C00DE009B7213 /* CALayer+animationCALayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+animationCALayer.m"; sourceTree = "<group>"; };
 		3D8996C3144578C600524885 /* Kitakaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitakaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8996C7144578C600524885 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3D8996C9144578C600524885 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3D8996CB144578C600524885 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3D8996CF144578C600524885 /* Kitakaze-Info.plist */ = {isa = PBXFileReference; path = "Kitakaze-Info.plist"; sourceTree = "<group>"; };
+		3D8996CF144578C600524885 /* Kitakaze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kitakaze-Info.plist"; sourceTree = "<group>"; };
 		3D8996D1144578C600524885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D8996D3144578C600524885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D8996D5144578C600524885 /* Kitakaze-Prefix.pch */ = {isa = PBXFileReference; path = "Kitakaze-Prefix.pch"; sourceTree = "<group>"; };
-		3D8996D6144578C600524885 /* KitakazeAppDelegate.h */ = {isa = PBXFileReference; path = KitakazeAppDelegate.h; sourceTree = "<group>"; };
+		3D8996D5144578C600524885 /* Kitakaze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kitakaze-Prefix.pch"; sourceTree = "<group>"; };
+		3D8996D6144578C600524885 /* KitakazeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitakazeAppDelegate.h; sourceTree = "<group>"; };
 		3D8996D7144578C600524885 /* KitakazeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitakazeAppDelegate.m; sourceTree = "<group>"; };
 		3D8996DA144578C600524885 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		3D8996DC144578C600524885 /* KitakazeViewController.h */ = {isa = PBXFileReference; path = KitakazeViewController.h; sourceTree = "<group>"; };
+		3D8996DC144578C600524885 /* KitakazeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitakazeViewController.h; sourceTree = "<group>"; };
 		3D8996DD144578C600524885 /* KitakazeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitakazeViewController.m; sourceTree = "<group>"; };
 		3D8996E0144578C600524885 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KitakazeViewController.xib; sourceTree = "<group>"; };
 		3D8996E7144578C600524885 /* KitakazeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitakazeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8996E8144578C600524885 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3D8996F1144578C600524885 /* KitakazeTests-Info.plist */ = {isa = PBXFileReference; path = "KitakazeTests-Info.plist"; sourceTree = "<group>"; };
+		3D8996F1144578C600524885 /* KitakazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KitakazeTests-Info.plist"; sourceTree = "<group>"; };
 		3D8996F3144578C600524885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D8996F5144578C600524885 /* KitakazeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitakazeTests.h; sourceTree = "<group>"; };
 		3D8996F7144578C600524885 /* KitakazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitakazeTests.m; sourceTree = "<group>"; };
+		3D89970514457C3200524885 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		3D89970614457C3200524885 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		3D89970714457C3200524885 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		3D89970A144584F700524885 /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		3D89970B144584F700524885 /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		3D89970C144584F700524885 /* OptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionViewController.xib; sourceTree = "<group>"; };
+		3D8997121446733300524885 /* clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clouds.png; sourceTree = "<group>"; };
+		3D8997141446733300524885 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		3D8997151446733300524885 /* title_and_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_and_button.png; sourceTree = "<group>"; };
+		3D89971D144675A300524885 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D89971F144675B300524885 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3D899720144675B300524885 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D89972314467CA700524885 /* playview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playview.png; sourceTree = "<group>"; };
+		3D89972514467FB400524885 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3DE84AFA14469D3C0001731A /* cloud_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_1.png; sourceTree = "<group>"; };
+		3DE84AFB14469D3C0001731A /* cloud_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_2.png; sourceTree = "<group>"; };
+		3DE84AFC14469D3C0001731A /* cloud_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_3.png; sourceTree = "<group>"; };
+		3DE84AFF14469D3C0001731A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		3DE84B0014469D3C0001731A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		3DE84B0A1446A3E80001731A /* statusbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbar.png; sourceTree = "<group>"; };
+		3DE84B131446BDBD0001731A /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		3DE84B141446BDBD0001731A /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
+		3DE84B1A1446C0530001731A /* WindyCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindyCloud.h; sourceTree = "<group>"; };
+		3DE84B1B1446C0530001731A /* WindyCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindyCloud.m; sourceTree = "<group>"; };
+		3DE84B1E1446C0740001731A /* RainyCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainyCloud.h; sourceTree = "<group>"; };
+		3DE84B1F1446C0750001731A /* RainyCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainyCloud.m; sourceTree = "<group>"; };
+		3DE84B211446C0910001731A /* ThunderCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThunderCloud.h; sourceTree = "<group>"; };
+		3DE84B221446C0910001731A /* ThunderCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThunderCloud.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D899721144675B300524885 /* OpenGLES.framework in Frameworks */,
+				3D899722144675B300524885 /* QuartzCore.framework in Frameworks */,
+				3D89971E144675A300524885 /* AVFoundation.framework in Frameworks */,
 				3D8996C8144578C600524885 /* UIKit.framework in Frameworks */,
 				3D8996CA144578C600524885 /* Foundation.framework in Frameworks */,
 				3D8996CC144578C600524885 /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +165,9 @@
 		3D8996C6144578C600524885 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D89971F144675B300524885 /* OpenGLES.framework */,
+				3D899720144675B300524885 /* QuartzCore.framework */,
+				3D89971D144675A300524885 /* AVFoundation.framework */,
 				3D8996C7144578C600524885 /* UIKit.framework */,
 				3D8996C9144578C600524885 /* Foundation.framework */,
 				3D8996CB144578C600524885 /* CoreGraphics.framework */,
@@ -123,6 +186,22 @@
 				3D8996DD144578C600524885 /* KitakazeViewController.m */,
 				3D8996DF144578C600524885 /* KitakazeViewController.xib */,
 				3D8996CE144578C600524885 /* Supporting Files */,
+				3D89970514457C3200524885 /* PlayViewController.h */,
+				3D89970614457C3200524885 /* PlayViewController.m */,
+				3D89970714457C3200524885 /* PlayViewController.xib */,
+				3D89970A144584F700524885 /* OptionViewController.h */,
+				3D89970B144584F700524885 /* OptionViewController.m */,
+				3D89970C144584F700524885 /* OptionViewController.xib */,
+				3DE84B131446BDBD0001731A /* Cloud.h */,
+				3DE84B141446BDBD0001731A /* Cloud.m */,
+				3DE84B1A1446C0530001731A /* WindyCloud.h */,
+				3DE84B1B1446C0530001731A /* WindyCloud.m */,
+				3DE84B1E1446C0740001731A /* RainyCloud.h */,
+				3DE84B1F1446C0750001731A /* RainyCloud.m */,
+				3DE84B211446C0910001731A /* ThunderCloud.h */,
+				3DE84B221446C0910001731A /* ThunderCloud.m */,
+				3D095CF8146C00DE009B7213 /* CALayer+animationCALayer.h */,
+				3D095CF9146C00DE009B7213 /* CALayer+animationCALayer.m */,
 			);
 			path = Kitakaze;
 			sourceTree = "<group>";
@@ -130,6 +209,19 @@
 		3D8996CE144578C600524885 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D095CF3146BF663009B7213 /* teemo02.png */,
+				3D095CF1146BF65D009B7213 /* teemo01.png */,
+				3DE84B0A1446A3E80001731A /* statusbar.png */,
+				3DE84AFA14469D3C0001731A /* cloud_1.png */,
+				3DE84AFB14469D3C0001731A /* cloud_2.png */,
+				3DE84AFC14469D3C0001731A /* cloud_3.png */,
+				3DE84AFF14469D3C0001731A /* play.png */,
+				3DE84B0014469D3C0001731A /* pause.png */,
+				3D89972514467FB400524885 /* Default.png */,
+				3D89972314467CA700524885 /* playview.png */,
+				3D8997121446733300524885 /* clouds.png */,
+				3D8997141446733300524885 /* title.png */,
+				3D8997151446733300524885 /* title_and_button.png */,
 				3D8996CF144578C600524885 /* Kitakaze-Info.plist */,
 				3D8996D0144578C600524885 /* InfoPlist.strings */,
 				3D8996D3144578C600524885 /* main.m */,
@@ -201,6 +293,9 @@
 /* Begin PBXProject section */
 		3D8996BA144578C500524885 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 3D8996BD144578C500524885 /* Build configuration list for PBXProject "Kitakaze" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -227,6 +322,21 @@
 				3D8996D2144578C600524885 /* InfoPlist.strings in Resources */,
 				3D8996DB144578C600524885 /* MainWindow.xib in Resources */,
 				3D8996E1144578C600524885 /* KitakazeViewController.xib in Resources */,
+				3D89970914457C3200524885 /* PlayViewController.xib in Resources */,
+				3D89970E144584F700524885 /* OptionViewController.xib in Resources */,
+				3D8997191446733300524885 /* clouds.png in Resources */,
+				3D89971B1446733300524885 /* title.png in Resources */,
+				3D89971C1446733300524885 /* title_and_button.png in Resources */,
+				3D89972414467CA700524885 /* playview.png in Resources */,
+				3D89972614467FB400524885 /* Default.png in Resources */,
+				3DE84B0114469D3C0001731A /* cloud_1.png in Resources */,
+				3DE84B0214469D3C0001731A /* cloud_2.png in Resources */,
+				3DE84B0314469D3C0001731A /* cloud_3.png in Resources */,
+				3DE84B0614469D3C0001731A /* play.png in Resources */,
+				3DE84B0714469D3C0001731A /* pause.png in Resources */,
+				3DE84B0B1446A3E80001731A /* statusbar.png in Resources */,
+				3D095CF2146BF65D009B7213 /* teemo01.png in Resources */,
+				3D095CF4146BF663009B7213 /* teemo02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +375,13 @@
 				3D8996D4144578C600524885 /* main.m in Sources */,
 				3D8996D8144578C600524885 /* KitakazeAppDelegate.m in Sources */,
 				3D8996DE144578C600524885 /* KitakazeViewController.m in Sources */,
+				3D89970814457C3200524885 /* PlayViewController.m in Sources */,
+				3D89970D144584F700524885 /* OptionViewController.m in Sources */,
+				3DE84B151446BDBD0001731A /* Cloud.m in Sources */,
+				3DE84B1C1446C0530001731A /* WindyCloud.m in Sources */,
+				3DE84B201446C0750001731A /* RainyCloud.m in Sources */,
+				3DE84B231446C0920001731A /* ThunderCloud.m in Sources */,
+				3D095CFA146C00DE009B7213 /* CALayer+animationCALayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +487,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kitakaze/Kitakaze-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Kitakaze/Kitakaze-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -381,6 +499,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kitakaze/Kitakaze-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Kitakaze/Kitakaze-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -397,6 +516,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kitakaze/Kitakaze-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "KitakazeTests/KitakazeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -414,6 +534,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kitakaze/Kitakaze-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "KitakazeTests/KitakazeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -440,6 +561,7 @@
 				3D8996FD144578C600524885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D8996FE144578C600524885 /* Build configuration list for PBXNativeTarget "KitakazeTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +570,7 @@
 				3D899700144578C600524885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

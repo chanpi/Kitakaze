@@ -18,6 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    AVAudioSession* audioSession = [AVAudioSession sharedInstance];
+    [audioSession setCategory:AVAudioSessionCategoryAmbient error:nil];
+    NSError* error = nil;
+    [audioSession setActive:YES error:&error];
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

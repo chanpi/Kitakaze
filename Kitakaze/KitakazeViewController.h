@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KitakazeViewController : UIViewController
+@interface KitakazeViewController : UIViewController {
+    IBOutlet UIButton* playButton_;
+    IBOutlet UIButton* optionButton_;
+}
+
+- (IBAction)showPlayView;
+- (IBAction)showOptionView;
 
 @end
