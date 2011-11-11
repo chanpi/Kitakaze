@@ -2,7 +2,7 @@
 //  CALayer+animationCALayer.m
 //  Kitakaze
 //
-//  Created by 幸 村山 on 11/11/10.
+//  Created by on 11/11/10.
 //  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
 
